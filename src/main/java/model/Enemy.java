@@ -1,5 +1,6 @@
 package model;
 
+import model.Player.Player;
 import model.component.cards.scenario.EnemyCard;
 import model.scenario.Sets;
 
