@@ -1,8 +1,8 @@
-package model.Player;
+package model.card.atribute;
 
 public class Skills {
 
-    int willpower;
+    int willPower;
     int intellect;
     int combat;
     int agility;
