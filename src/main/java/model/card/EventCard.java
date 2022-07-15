@@ -5,7 +5,7 @@ import model.card.behavior.EscapeBehavior;
 import model.card.behavior.MoveBehavior;
 import model.card.behavior.UseBehavior;
 
-public class EventCard {
+public class EventCard implements Card {
 
     private int price;
     private int level;

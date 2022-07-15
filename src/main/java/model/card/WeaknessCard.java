@@ -2,7 +2,7 @@ package model.card;
 
 import model.card.behavior.*;
 
-public class WeaknessCard {
+public class WeaknessCard implements Card{
 
     ActionActivationBehavior actionActivationBehavior;
     EnemyBehavior enemyBehavior;

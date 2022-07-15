@@ -5,7 +5,7 @@ import model.card.behavior.MoveBehavior;
 import model.card.behavior.PostTestBehavior;
 import model.card.behavior.TestBehavior;
 
-public class SkillCard {
+public class SkillCard implements Card {
 
     private Skills skills;
 
