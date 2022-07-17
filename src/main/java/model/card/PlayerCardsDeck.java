@@ -1,4 +1,4 @@
-package model.card.behavior;
+package model.card;
 
 import model.card.*;
 
@@ -8,15 +8,10 @@ public class PlayerCardsDeck extends CardDeck{
 
 
 
-    public boolean haveEventCard(){
+    public boolean isEventCard(Card card){
 
-        List<Card> cards = getSeveralCards(getSizeDeck());
-
-        for (Card card : cards) {
-
-            if(card instanceof EventCard){
-                return true;
-            }
+        if(card instanceof EventCard){
+            return true;
         }
         return false;
     }
