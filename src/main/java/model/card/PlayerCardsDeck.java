@@ -1,6 +1,6 @@
 package model.card;
 
-import model.card.*;
+import model.card.eventCards.EventCard;
 
 import java.util.List;
 

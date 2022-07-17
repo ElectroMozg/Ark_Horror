@@ -1,5 +1,6 @@
-package model.card;
+package model.card.eventCards;
 
+import model.card.Card;
 import model.card.atribute.Skills;
 import model.card.behavior.EscapeBehavior;
 import model.card.behavior.MoveBehavior;

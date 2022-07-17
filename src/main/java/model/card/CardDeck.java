@@ -1,5 +1,7 @@
 package model.card;
 
+import model.Game;
+
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
@@ -23,7 +25,6 @@ public class CardDeck {
 
         deck.push(card);
     }
-
     public List<Card> getSeveralCards(int size) {
 
         List<Card> cards = new ArrayList<>();
